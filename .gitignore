@@ -1,0 +1,11 @@
+node_modules/
+package-lock.json
+package.json
+
+.pdm-python
+.coverage
+pdm.lock
+htmlcov/
+
+.idea/
+__pycache__/
