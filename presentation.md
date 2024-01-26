@@ -52,6 +52,16 @@ _get_portuguese(word)
 
 ---
 
+# **Covering branches depends on the tool used**
+
+* We are using **coverage** for this case, but other tools can have other ways to measure *decision branches*.
+* I remember seeing in JavaScript, probably **Jest** to cover branches, and it may be different from **coverage**.
+* `a = b or c` have only **one decision branch** for **coverage**.
+* But It actually has two branches at least. Because `a` can be `True` or `False`. We might test both cases.
+* Jest do something like it as I remember.
+
+---
+
 # **References**
 
 [1] Allainclair Flausino dos Santos: allainclair@gmail.com
